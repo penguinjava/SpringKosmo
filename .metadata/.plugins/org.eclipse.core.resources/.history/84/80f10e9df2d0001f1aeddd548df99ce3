@@ -1,0 +1,19 @@
+package com.edu.spingboot.lombok;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+
+import ch.qos.logback.core.model.Model;
+
+@Controller
+public class DTOController {
+	
+	@GetMapping("/dto.do")
+	public String home(MemberDTO memberDTO, Model model) {
+		
+		memberDTO.setId("tjoeun");
+		memberDTO.setName("더조은컴퓨터아카데미");
+		memberDTO.setId("tjoeun");
+		memberDTO.setId("tjoeun");
+	}
+}

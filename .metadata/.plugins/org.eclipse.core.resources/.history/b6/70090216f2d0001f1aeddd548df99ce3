@@ -1,0 +1,5 @@
+package com.edu.spingboot.lombok;
+
+public class MemberDTO {
+
+}

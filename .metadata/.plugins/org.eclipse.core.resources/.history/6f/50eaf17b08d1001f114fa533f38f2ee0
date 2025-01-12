@@ -1,0 +1,12 @@
+package com.edu.spingboot;
+
+public class RegistDTO {
+	
+	private String id;
+	private String pass1;
+	private String name;
+	private String sex;
+	private String email1;
+	private String email2;
+	
+}

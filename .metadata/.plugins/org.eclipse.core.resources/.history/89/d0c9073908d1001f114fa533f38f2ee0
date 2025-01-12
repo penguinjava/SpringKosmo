@@ -1,0 +1,25 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>registProcess</title>
+</head>
+<body>
+	<h2>퀴즈] 회원가입폼에서 전송된 값</h2>
+	<ul>
+		<li>아이디 : ${registDTO.id}</li>
+		<li>비밀번호 : ${registDTO.pass1}</li>
+		<li>이름 : ${registDTO.name}</li>
+		<li>성별 : ${registDTO.sex}</li>
+		<li>이메일 : ${registDTO.id}</li>
+		<li>아이디 : ${registDTO.id}</li>
+		<li>아이디 : ${registDTO.id}</li>
+		<li>아이디 : ${registDTO.id}</li>
+		<li>아이디 : ${registDTO.id}</li>
+		<li>아이디 : ${registDTO.id}</li>
+		<li>아이디 : ${registDTO.id}</li>
+	</ul>
+</body>
+</html>

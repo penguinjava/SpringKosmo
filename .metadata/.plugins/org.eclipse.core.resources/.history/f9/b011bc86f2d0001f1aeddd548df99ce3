@@ -1,0 +1,6 @@
+package com.edu.spingboot.lombok;
+
+@Controller
+public class DTOController {
+	
+}

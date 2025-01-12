@@ -1,0 +1,6 @@
+package com.edu.spingboot;
+
+@Controller
+public class MainController {
+
+}
